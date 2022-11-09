@@ -12,7 +12,7 @@ def client():
 
     while message.lower().strip() != 'bye':
         client_socket.send(message.encode())  # envoie le message
-        data = client_socket.recv(1024).decode()  # recois les reponse
+        data = client_socket.recv(1024).decode()  # recois la reponse
 
         print('Reçu du serveur: ' + data)
 
