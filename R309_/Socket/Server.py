@@ -19,7 +19,7 @@ def server():
         if not data:
             # Si les données ne sont pas recus break
             break
-        print("from connected user: " + str(data))
+        print("de l'utilisateur connecté: " + str(data))
         data = input(' -> ')
         conn.send(data.encode())  # Envoye les données au client
 
