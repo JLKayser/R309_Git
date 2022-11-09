@@ -1,3 +1,4 @@
+#Synchrone
 import socket
 
 
